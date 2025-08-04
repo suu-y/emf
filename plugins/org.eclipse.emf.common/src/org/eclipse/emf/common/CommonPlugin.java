@@ -309,7 +309,7 @@ public final class CommonPlugin extends EMFPlugin
 
     protected static URI fix(URL url, String fragment) throws IOException
     {
-      // Only file-scheme URIs will be re-encoded. If a URI was decoded in the workaround
+      System.out.println("SATD ID: 11");
       // above, and Platform.resolve() didn't return a file-scheme URI, then this will return
       // an decoded URI.
       //

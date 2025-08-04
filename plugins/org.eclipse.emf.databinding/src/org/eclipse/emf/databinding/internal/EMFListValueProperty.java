@@ -139,7 +139,7 @@ public class EMFListValueProperty extends SimpleValueProperty
 
             Object newValue = doGetValue(msg.getNotifier());
 
-            //TODO Can we be smarter here and find out if the value really changed instead of passing null
+            System.out.println("SATD ID: 19");
             getListener().handleEvent(
               new SimplePropertyEvent(SimplePropertyEvent.CHANGE, msg.getNotifier(), getOwner(), Diffs.createValueDiff(null, newValue)));
           }

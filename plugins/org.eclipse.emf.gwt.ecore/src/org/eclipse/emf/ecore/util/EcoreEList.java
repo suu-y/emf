@@ -70,7 +70,7 @@ public abstract class EcoreEList<E> extends NotifyingInternalEListImpl<E> implem
 
   protected boolean isInstance(Object object)
   {
-    // TODO
+    System.out.println("SATD ID: 34");
     return true;
     // return dataClass.isInstance(object);
   }

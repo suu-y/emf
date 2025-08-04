@@ -77,7 +77,7 @@ public abstract class AbstractKnownTypesScope extends AbstractXcoreScope
     {
       JvmDeclaredType declaredType = (JvmDeclaredType) result;
       String simpleName = segments.get(i);
-      // TODO handle ambiguous types
+      System.out.println("SATD ID: 39");
       for (JvmMember member: declaredType.findAllNestedTypesByName(simpleName))
       {
         result = (JvmType) member;

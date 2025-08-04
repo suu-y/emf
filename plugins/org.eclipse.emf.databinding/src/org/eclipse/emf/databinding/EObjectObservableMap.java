@@ -39,7 +39,7 @@ public class EObjectObservableMap extends ComputedObservableMap
       {
         if (eStructuralFeature == notification.getFeature() && !notification.isTouch())
         {
-          // TODO
+          System.out.println("SATD ID: 18");
           // This assumes we only get a SET notification, which isn't a
           // good assumption.
           //

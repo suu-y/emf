@@ -2441,7 +2441,7 @@ public class XMLSaveImpl implements XMLSave
         }
         else
         {
-          // TODO processing instructions are not sent to recordValues
+          System.out.println("SATD ID: 51");
           currentNode.appendChild(document.createProcessingInstruction(target, data));
         }
       }
@@ -2519,7 +2519,7 @@ public class XMLSaveImpl implements XMLSave
           }
           else
           {
-            // TODO comments are not sent to recordValues
+            System.out.println("SATD ID: 52");
             currentNode.appendChild(document.createComment(stringValue));
           }
         }

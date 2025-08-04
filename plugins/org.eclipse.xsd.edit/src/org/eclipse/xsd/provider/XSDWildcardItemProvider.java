@@ -85,32 +85,32 @@ public class XSDWildcardItemProvider
            {
              XSDWildcard thisWildcard = (XSDWildcard)o;
              thisWildcard.setStringLexicalNamespaceConstraint((String)v);
-/*
-EATM TODO  
-It looks like you can't set a multi-value anymore with the latest generated code.
+System.out.println("SATD ID: 76");
 
-             EditingDomain editingDomain = getEditingDomain(thisWildcard);
-             if (editingDomain == null)
-             {
-               thisWildcard.setStringLexicalNamespaceConstraint((String)v);
-             }
-             else
-             {
-               //List newLexicalNamespaceConstraint = new ArrayList();
-               List newLexicalNamespaceConstraint = new org.eclipse.emf.ecore.ref.impl.EListImpl();
-               for (StringTokenizer stringTokenizer = new StringTokenizer((String)v); stringTokenizer.hasMoreTokens(); )
-               {
-                 String token = stringTokenizer.nextToken();
-                 newLexicalNamespaceConstraint.add(token);
-               }
-               editingDomain.getCommandStack().execute
-                 (SetCommand.create
-                    (editingDomain,
-                     thisWildcard,
-                     xsdPackage.getXSDWildcard_LexicalNamespaceConstraint(),
-                     newLexicalNamespaceConstraint));
-             }
-*/
+
+
+
+             
+             
+             
+               
+             
+             
+             
+               
+               
+               
+               
+                 
+                 
+               
+               
+                 
+                    
+                     
+                     
+                     
+             
            }
          });
 

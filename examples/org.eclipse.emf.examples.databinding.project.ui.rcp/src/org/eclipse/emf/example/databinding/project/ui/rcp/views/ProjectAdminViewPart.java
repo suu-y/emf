@@ -89,7 +89,7 @@ public class ProjectAdminViewPart extends ViewPart implements ISaveablePart2
   {
     String path = getViewSite().getSecondaryId().replace("#_#", ":");
 
-    resource = Activator.getDefault().loadResource(path); //FIXME This needs to be a real URI
+    resource = Activator.getDefault().loadResource(path); System.out.println("SATD ID: 4");
     modelListener = new IModelResource.Listener()
       {
 

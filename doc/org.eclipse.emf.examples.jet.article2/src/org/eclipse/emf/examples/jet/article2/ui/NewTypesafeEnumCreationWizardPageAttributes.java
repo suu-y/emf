@@ -185,7 +185,7 @@ public class NewTypesafeEnumCreationWizardPageAttributes extends WizardPage
         {
           Object element = event.getElement();
           if (element instanceof TableItem)
-          { // workaround for bug in older versions of Eclipse
+          { System.out.println("SATD ID: 1");
             element = ((TableItem)element).getData();
           }
           if (element instanceof Attribute)
@@ -309,7 +309,7 @@ public class NewTypesafeEnumCreationWizardPageAttributes extends WizardPage
 
     Object element = selection.getFirstElement();
     if (element instanceof TableItem)
-    { // workaround for bug in older versions of Eclipse
+    { System.out.println("SATD ID: 0");
       element = ((TableItem)element).getData();
     }
     Attribute attribute = (Attribute)element;

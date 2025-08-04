@@ -63,35 +63,35 @@ public class LocalURIHandlerImpl extends URIHandlerImpl
   @Override
   public void delete(URI uri, Map<?, ?> options) throws IOException
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 27");
     super.delete(uri, options);
   }
 
   @Override
   public Map<String, ?> contentDescription(URI uri, Map<?, ?> options) throws IOException
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 26");
     return super.contentDescription(uri, options);
   }
 
   @Override
   public boolean exists(URI uri, Map<?, ?> options)
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 28");
     return super.exists(uri, options);
   }
 
   @Override
   public Map<String, ?> getAttributes(URI uri, Map<?, ?> options)
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 29");
     return super.getAttributes(uri, options);
   }
 
   @Override
   public void setAttributes(URI uri, Map<String, ?> attributes, Map<?, ?> options) throws IOException
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 30");
     super.setAttributes(uri, attributes, options);
   }
 }

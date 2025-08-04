@@ -5480,7 +5480,7 @@ if (index != -1) { head = typeName.substring(0, index); tail = "<code>" + CodeGe
     }
     stringBuffer.append(TEXT_694);
     stringBuffer.append(isInterface ? " " + genClass.getInterfaceName() : genClass.getClassName());
-    // TODO fix the space above
+    System.out.println("SATD ID: 6");
     genModel.emitSortedImports();
     stringBuffer.append(TEXT_7);
     return stringBuffer.toString();

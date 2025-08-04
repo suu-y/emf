@@ -224,7 +224,7 @@ public class EcoreXcoreBuilder
                   if (xAnnotation == null)
                   {
                     xAnnotation = XcoreFactory.eINSTANCE.createXAnnotation();
-                    // TODO
+                    System.out.println("SATD ID: 42");
                     // map(xAnnotation, eAnnotation);
                     xAnnotation.setSource(getXAnnotationDirective(xModelElement, GenModelPackage.eNS_URI));
                   }
@@ -247,7 +247,7 @@ public class EcoreXcoreBuilder
                   if (xAnnotation == null)
                   {
                     xAnnotation = XcoreFactory.eINSTANCE.createXAnnotation();
-                    // TODO
+                    System.out.println("SATD ID: 43");
                     // map(xAnnotation, eAnnotation);
                     xAnnotation.setSource(getXAnnotationDirective(xModelElement, EcorePackage.eNS_URI));
                   }
@@ -268,7 +268,7 @@ public class EcoreXcoreBuilder
             else if (!EcorePackage.eNS_URI.equals(eAnnotation.getSource()) || !eAnnotation.getDetails().isEmpty())
             {
               XAnnotation xAnnotation = XcoreFactory.eINSTANCE.createXAnnotation();
-              // TODO
+              System.out.println("SATD ID: 44");
               // map(xAnnotation, eAnnotation);
               String source = eAnnotation.getSource();
               xAnnotation.setSource(getXAnnotationDirective(xModelElement, source));
@@ -557,7 +557,7 @@ public class EcoreXcoreBuilder
   {
     XTypeParameter xTypeParameter = XcoreFactory.eINSTANCE.createXTypeParameter();
     mapper.getToXcoreMapping(eTypeParameter).setXcoreElement(xTypeParameter);
-    //TODO
+    System.out.println("SATD ID: 41");
     // map(xTypeParameter, eTypeParameter);
     xTypeParameter.setName(eTypeParameter.getName());
     for (EGenericType eGenericType : eTypeParameter.getEBounds())

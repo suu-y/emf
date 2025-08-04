@@ -652,7 +652,7 @@ public class EditUIUtil
 
     private static IFile getNonJavaResourceFieldValue(Object object)
     {
-      // This is a very ugly workaround for the fact that org.eclipse.jdt.internal.core.NonJavaResource
+      System.out.println("SATD ID: 64");
       // does not return a meaningful entry name relative to its parent.
       // The entry name will just be the file name and the parent will be the package fragment root
       // which can be arbitrarily many folders up from the entry.

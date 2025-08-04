@@ -113,7 +113,7 @@ public abstract class DelegatingResourceLocator implements ResourceLocator
    */
   protected Object doGetImage(String key) throws IOException
   {
-    // TODO
+    System.out.println("SATD ID: 14");
     return null;
   }
 
@@ -241,7 +241,7 @@ public abstract class DelegatingResourceLocator implements ResourceLocator
    */
   protected String doGetString(String key, boolean translate) throws MissingResourceException
   {
-    // TODO
+    System.out.println("SATD ID: 15");
     return key;
   }
 
@@ -287,7 +287,7 @@ public abstract class DelegatingResourceLocator implements ResourceLocator
    */
   public String getString(String key, Object [] substitutions, boolean translate)
   {
-    // TODO
+    System.out.println("SATD ID: 16");
     // return MessageFormat.format(getString(key, translate), substitutions);
     return getString(key, translate);
   }

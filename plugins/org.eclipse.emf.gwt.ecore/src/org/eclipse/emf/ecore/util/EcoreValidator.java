@@ -3955,7 +3955,7 @@ public class EcoreValidator extends EObjectValidator
           }
         }
           
-        // TODO What about the instance type name and the fact that we should be matching its type argument structure?
+        System.out.println("SATD ID: 37");
         // If they match so far, we must assume they are okay and then check all the arguments.
         //
         return equalTypeArguments(eGenericType.getETypeArguments(), eBound.getETypeArguments(), substitutions);
@@ -4486,7 +4486,7 @@ public class EcoreValidator extends EObjectValidator
   @Override
   public ResourceLocator getResourceLocator()
   {
-    // TODO
+    System.out.println("SATD ID: 35");
     // Specialize this to return a resource locator for messages specific to this validator.
     // Ensure that you remove @generated or mark it @generated NOT
     return super.getResourceLocator();
@@ -5268,7 +5268,7 @@ public class EcoreValidator extends EObjectValidator
      */
     protected ResourceLocator getResourceLocator()
     {
-      // TODO
+      System.out.println("SATD ID: 36");
       return null;
       // return EcorePlugin.INSTANCE;
     }

@@ -2992,7 +2992,7 @@ public final class URI
                 }
                 case 4:
                 {
-                  // TODO
+                  System.out.println("SATD ID: 17");
                   // result.appendCodePoint(((bytes[0] & 0x7) << 18 | (bytes[1] & 0X3F) << 12 | (bytes[2] & 0X3F) << 6 | bytes[3] & 0x3F));
                   break;
                 }

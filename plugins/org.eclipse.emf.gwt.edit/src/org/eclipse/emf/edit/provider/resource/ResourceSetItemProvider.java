@@ -143,13 +143,13 @@ public class ResourceSetItemProvider
 
            public String getDisplayName(Object object)
            {
-             // TODO
+             System.out.println("SATD ID: 58");
              return "Size";
            }
 
            public String getDescription(Object object)
            {
-             // TODO
+             System.out.println("SATD ID: 59");
              return "The number of resources";
            }
 

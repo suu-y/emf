@@ -177,7 +177,7 @@ public class XcoreEcoreBuilder
       // The pre linking phase model won't process the annotations and won't pick up the nsURI in the annotation.
       // That's particularly problematic because the nsURI is something indexed from this prelinked model.
       // At least to this for Ecore to avoid inducing a model with circular inheritance.
-      // TODO
+      System.out.println("SATD ID: 45");
       //
       if (ePackage.getNsURI() == null)
       {
@@ -324,7 +324,7 @@ public class XcoreEcoreBuilder
             if (eStructuralFeature instanceof EAttribute)
             {
               // Be more careful about exceptions.
-              // TODO
+              System.out.println("SATD ID: 46");
               //
               EDataType eDataType = (EDataType)eStructuralFeature.getEType();
               eModelElement.eSet(eStructuralFeature, EcoreUtil.createFromString(eDataType, value));

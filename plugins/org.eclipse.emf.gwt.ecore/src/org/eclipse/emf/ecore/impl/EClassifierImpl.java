@@ -432,7 +432,7 @@ public abstract class EClassifierImpl extends ENamedElementImpl implements EClas
   protected Class<?> getClassForName(String name)
   {
     return null;
-    // TODO
+    System.out.println("SATD ID: 20");
     // EPackage p = getEPackage();
     // return p != null ? Class.forName(name, true, p.getClass().getClassLoader()) : Class.forName(name);
   }
@@ -774,7 +774,7 @@ public abstract class EClassifierImpl extends ENamedElementImpl implements EClas
   @Override
   public String toString()
   {
-    // TODO Update this after old tests pass and then update the old tests to reflect this change.
+    System.out.println("SATD ID: 21");
     //
     if (eIsProxy()) return super.toString();
 

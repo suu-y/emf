@@ -317,7 +317,7 @@ public class XSDComplexTypeDefinitionItemProvider
     EObject refObject = (EObject)child;
     if (refObject instanceof XSDAttributeDeclaration)
     {
-      // TODO: check that this is what you want.
+      System.out.println("SATD ID: 75");
       return xsdPackage.getXSDComplexTypeDefinition_AttributeContents();
     }
     return super.getChildFeature(object, child);

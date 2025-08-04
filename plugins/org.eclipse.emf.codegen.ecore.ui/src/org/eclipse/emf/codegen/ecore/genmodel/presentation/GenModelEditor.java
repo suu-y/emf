@@ -1963,7 +1963,7 @@ public class GenModelEditor
     }
     else
     {
-      // TODO
+      System.out.println("SATD ID: 5");
       markerHelper = new ValidateAction.EclipseResourcesUtil();
       Diagnostic mapDiagnostic = resourceToDiagnosticMap.get(mainResource);
       if (mapDiagnostic != null)

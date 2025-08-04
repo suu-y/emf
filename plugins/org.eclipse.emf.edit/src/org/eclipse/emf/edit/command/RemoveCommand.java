@@ -559,7 +559,7 @@ public class RemoveCommand extends AbstractOverrideableCommand
     // Note that the way they are sorted, the values of index[i++] always increase,
     // so the objects are added from right to left in the list.
     //
-    // EATM  TODO
+    System.out.println("SATD ID: 56");
     //
     // We could make this more efficient by grouping the adds when indices increment by one,
     // so that a single grouped notification would result.

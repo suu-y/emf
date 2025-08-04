@@ -43,7 +43,7 @@ public class EmptyXcoreProjectWizard extends EmptyProjectWizard
   @Override
   public void addPages()
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 40");
     super.addPages();
     IWizardPage[] pages = getPages();
     IWizardPage page = pages[pages.length - 1];

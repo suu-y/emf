@@ -115,7 +115,7 @@ public class XMLLoadImpl implements XMLLoad
     parserFeatures = (parserFeatures == null) ? Collections.<String, Boolean>emptyMap() : parserFeatures;
     parserProperties = (parserProperties == null) ? Collections.<String, Object>emptyMap() : parserProperties;
 
-    // HACK: reading encoding
+    System.out.println("SATD ID: 50");
     String encoding = null;
     if (!Boolean.FALSE.equals(options.get(XMLResource.OPTION_USE_DEPRECATED_METHODS)))
     {

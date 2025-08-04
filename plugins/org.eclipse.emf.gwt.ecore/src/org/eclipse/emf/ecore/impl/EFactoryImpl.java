@@ -389,74 +389,74 @@ public class EFactoryImpl extends EModelElementImpl implements EFactory
       throw new IllegalArgumentException("The value '" + stringValue + "' is not a date formatted string of the form yyyy-MM-dd'T'HH:mm:ss'.'SSSZ or a valid subset thereof");
     }
 
-    /*
-    Class<String> stringClass = String.class;
-    Class<?>[] signature = { stringClass };
-
-    Constructor<?> ctor = null;
-    try
-    {
-      ctor = c.getConstructor(signature);
-    }
-    catch (NoSuchMethodException e)
-    {
-      // Continue to try a different approach.
-    }
-    Throwable formatException = null;
-    try
-    {
-      if (ctor != null)
-      {
-        Object[] ctorArgs = {stringValue};
-        return ctor.newInstance(ctorArgs);
-      }
-    }
-    catch (InstantiationException e)
-    {
-      formatException = e;
-    }
-    catch (InvocationTargetException e)
-    {
-      formatException = e.getCause();
-    }
-    catch (IllegalAccessException e)
-    {
-      formatException = e;
-    }
+    System.out.println("SATD ID: 23");
     
-    Method valueOf = null;
-    try
-    {
-      valueOf = c.getMethod("valueOf", signature);
-    }
-    catch (NoSuchMethodException e)
-    {
-      // Continue to try a different approach.
-    }
+    
 
-    try
-    {
-      if (valueOf != null)
-      {
-        Object[] valueOfArgs = {stringValue};
-        return valueOf.invoke(null, valueOfArgs);
-      }
-    }
-    catch (IllegalArgumentException e)
-    {
-      formatException = e;
-    }
-    catch (InvocationTargetException e)
-    {
-      formatException = e.getCause();
-    }
-    catch (IllegalAccessException e)
-    {
-      formatException = e;
-    }
-    String exceptionString = formatException != null ? formatException.toString() : "";
-    throw new IllegalArgumentException("The value '" + stringValue + "' is invalid. " + exceptionString, formatException);
-    */
+
+    
+    
+    
+      
+    
+    
+    
+      
+    
+    
+    
+    
+      
+      
+        
+        
+      
+    
+    
+    
+      
+    
+    
+    
+      
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      
+    
+    
+    
+      
+    
+
+
+    
+    
+      
+      
+        
+        
+      
+    
+    
+    
+      
+    
+    
+    
+      
+    
+    
+    
+      
+    
     throw new IllegalArgumentException("The value '" + stringValue + "' is invalid. ");
   }
 

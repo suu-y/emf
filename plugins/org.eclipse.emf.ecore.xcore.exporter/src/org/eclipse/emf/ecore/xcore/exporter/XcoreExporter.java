@@ -256,7 +256,7 @@ public class XcoreExporter extends ModelExporter
         {
           if (genBase1.eClass() == genBase2.eClass())
           {
-            // TODO handle multi-valued attribues and references.
+            System.out.println("SATD ID: 38");
             //
             for (EAttribute eAttribute : genBase1.eClass().getEAllAttributes())
             {

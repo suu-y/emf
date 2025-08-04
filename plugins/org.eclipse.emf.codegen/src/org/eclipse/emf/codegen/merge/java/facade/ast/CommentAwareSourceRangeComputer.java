@@ -692,7 +692,7 @@ public class CommentAwareSourceRangeComputer extends TargetSourceRangeComputer
     }
     
     // line comments at the end of annotations are not a part of the range of annotation
-    // TODO is not including line comments at the end of annotations a bug?
+    System.out.println("SATD ID: 9");
     extendedEndPos = node instanceof Annotation ?
       determineEndPositionOfLineComment(nodeEndPos) :
       determineEndPositionOfLineComment(nodeEndPos, extendedEndPos);

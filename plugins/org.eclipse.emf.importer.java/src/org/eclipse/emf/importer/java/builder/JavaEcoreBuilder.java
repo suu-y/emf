@@ -420,7 +420,7 @@ public class JavaEcoreBuilder
       EReference eReference = entry.getKey();
       String oppositeName = entry.getValue();
       EClass eClass = (EClass)eReference.getEType();
-      // TODO handle class cast exception better.
+      System.out.println("SATD ID: 65");
       EReference eOpposite = (EReference)eClass.getEStructuralFeature(oppositeName);
       if (eOpposite == null)
       {
@@ -464,7 +464,7 @@ public class JavaEcoreBuilder
         }
         else if (!(eKey instanceof EAttribute))
         {
-          // TODO Ignore for now.
+          System.out.println("SATD ID: 66");
         }
         else
         {

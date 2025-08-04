@@ -601,7 +601,7 @@ public final class SegmentSequence implements CharSequence
       }
 
       // The string matches, so given we don't have a cached toString, we may as well cache this one.
-      // TODO Maybe we want to cache only interned strings...
+      System.out.println("SATD ID: 13");
       //
       toString = POOL.newCachedToString(this, string);
 
@@ -2140,7 +2140,7 @@ public final class SegmentSequence implements CharSequence
           if (segmentCount > 1)
           {
             // Cache the toString if it would need to be computed later.
-            // TODO we may want to intern it.
+            System.out.println("SATD ID: 12");
             //
             segmentSequence.toString = POOL.newCachedToString(segmentSequence, string);
           }

@@ -975,7 +975,7 @@ public class PackageClass
     }
     stringBuffer.append(TEXT_7);
     }
-    if (isInterface) { // TODO REMOVE THIS BOGUS EMPTY LINE
+    if (isInterface) { System.out.println("SATD ID: 7");
     stringBuffer.append(TEXT_7);
     }
     for (GenClassifier genClassifier : genPackage.getGenClassifiers()) {

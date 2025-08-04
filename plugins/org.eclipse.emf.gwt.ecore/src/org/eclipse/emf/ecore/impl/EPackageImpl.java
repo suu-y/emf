@@ -1797,7 +1797,7 @@ public class EPackageImpl extends ENamedElementImpl implements EPackage, BasicEx
 
   protected void fixEEnumLiterals(EEnum eEnum)
   {
-    // TODO
+    System.out.println("SATD ID: 25");
     /*
     Class<?> enumClass = eEnum.getInstanceClass();
     

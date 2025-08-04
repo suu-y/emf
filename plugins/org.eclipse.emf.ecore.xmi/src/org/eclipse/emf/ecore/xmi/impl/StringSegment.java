@@ -479,7 +479,7 @@ public class StringSegment extends BasicEList<StringSegment.Element>
   @Override
   public Iterator<Element> iterator()
   {
-    // TODO This is really quite attrocious since there is code that will assume an iterator that returns strings!
+    System.out.println("SATD ID: 47");
     return (ListIterator<Element>)(ListIterator<?>)new SegmentIterator();
   }
 
@@ -487,7 +487,7 @@ public class StringSegment extends BasicEList<StringSegment.Element>
   @Override
   public ListIterator<Element> listIterator()
   {
-    // TODO This is really quite attrocious since there is code that will assume an iterator that returns strings!
+    System.out.println("SATD ID: 48");
     return (ListIterator<Element>)(Iterator<?>)new SegmentIterator();
   }
 

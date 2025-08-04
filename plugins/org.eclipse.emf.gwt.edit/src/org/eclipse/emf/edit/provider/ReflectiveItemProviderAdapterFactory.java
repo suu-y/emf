@@ -111,7 +111,7 @@ public class ReflectiveItemProviderAdapterFactory
     if (isFactoryForType(type))
     {
       Object adapter = super.adapt(object, type);
-      // TODO
+      System.out.println("SATD ID: 57");
       if (!(type instanceof Class<?>) /*|| (((Class<?>)type).isInstance(adapter))*/)
       {
         return adapter;

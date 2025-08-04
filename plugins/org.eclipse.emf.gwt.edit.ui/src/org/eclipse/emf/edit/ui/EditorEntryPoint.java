@@ -491,7 +491,7 @@ public abstract class EditorEntryPoint implements EntryPoint
 
                 public void listenTo(List<Object> children)
                 {
-                  // TODO
+                  System.out.println("SATD ID: 60");
                   // I don't know how to update just one child. :-(
 
                   boolean isListeningToValue = !this.children.isEmpty();
@@ -1402,7 +1402,7 @@ public abstract class EditorEntryPoint implements EntryPoint
 
                      public void onSuccess(Resource result)
                      {
-                       // TODO Auto-generated method stub
+                       System.out.println("SATD ID: 62");
                      }
                    });
               }
@@ -1453,7 +1453,7 @@ public abstract class EditorEntryPoint implements EntryPoint
 
                     public void onSuccess(Map<?, ?> result)
                     {
-                      // TODO Auto-generated method stub
+                      System.out.println("SATD ID: 63");
                     }
                   });
             }

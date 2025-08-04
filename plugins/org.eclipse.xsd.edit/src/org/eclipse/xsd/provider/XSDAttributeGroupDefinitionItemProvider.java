@@ -118,7 +118,7 @@ public class XSDAttributeGroupDefinitionItemProvider
     EObject refObject = (EObject)child;
     if (refObject instanceof XSDAttributeDeclaration)
     {
-      // TODO: check that this is what you want.
+      System.out.println("SATD ID: 74");
       return xsdPackage.getXSDAttributeGroupDefinition_Contents();
     }
     return super.getChildFeature(object, child);

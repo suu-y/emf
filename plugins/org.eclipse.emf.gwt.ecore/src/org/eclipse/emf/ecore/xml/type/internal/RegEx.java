@@ -3828,7 +3828,7 @@ public final class RegEx
               return WT_OTHER;
           }
           */
-          // TODO
+          System.out.println("SATD ID: 55");
           return WT_OTHER;
       }
 
@@ -6632,7 +6632,7 @@ public final class RegEx
                   Token.registerNonXS("UNASSIGNED");
                   Token.registerNonXS("ALL");
 
-                  // TODO
+                  System.out.println("SATD ID: 54");
                   /*
                   Token isalpha = Token.createRange();
                   isalpha.mergeRanges(ranges[Character.UPPERCASE_LETTER]); // Lu

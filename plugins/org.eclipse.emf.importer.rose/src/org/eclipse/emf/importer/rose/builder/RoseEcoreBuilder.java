@@ -2171,7 +2171,7 @@ public class RoseEcoreBuilder implements RoseVisitor
       }
       else
       {
-        // TODO So what should be the eType be now?
+        System.out.println("SATD ID: 67");
         //
         eType = getBasicType("EString");
       }

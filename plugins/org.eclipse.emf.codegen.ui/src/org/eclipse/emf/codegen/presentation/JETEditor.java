@@ -4649,7 +4649,7 @@ public final class JETEditor extends AbstractDecoratedTextEditor
           public void execute() throws Exception
           {
             Method performChangeMethod = null;
-            // We do this ugliness because directly applying the proposal will often want to open the Java editor and we definitely don't want that.
+            System.out.println("SATD ID: 10");
             for (Class<?> delegateClass = delegate.getClass(); delegateClass != null; delegateClass = delegateClass.getSuperclass())
             {
               try

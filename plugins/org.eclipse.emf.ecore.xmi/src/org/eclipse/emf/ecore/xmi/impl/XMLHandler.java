@@ -1437,7 +1437,7 @@ public abstract class XMLHandler extends DefaultHandler implements XMLDefaultHan
       }
       if (eClass != null)
       {
-        // EATM Kind of hacky.
+        System.out.println("SATD ID: 49");
         String typeName = extendedMetaData.getName(eClass);
         @SuppressWarnings("deprecation") EObject newObject =
           useNewMethods ?

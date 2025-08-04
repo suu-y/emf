@@ -676,7 +676,7 @@ public abstract class ASTJNode<T extends ASTNode> extends AbstractJNode
     {
       compilationUnit.getAllTrackedContentsMap().remove(node);
     }
-    // TODO handle situation when ASTJNode is removed (compilationUnit is null)
+    System.out.println("SATD ID: 8");
   }
 
   /**

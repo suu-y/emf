@@ -54,7 +54,7 @@ public class DatastoreURIHandlerImpl extends URIHandlerImpl
           }
           else
           {
-            // TODO
+            System.out.println("SATD ID: 68");
             // If there is another flush, we'd need to use this timestamp for the options the next time...
           }
         }
@@ -98,14 +98,14 @@ public class DatastoreURIHandlerImpl extends URIHandlerImpl
   @Override
   public Map<String, ?> getAttributes(URI uri, Map<?, ?> options)
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 69");
     return super.getAttributes(uri, options);
   }
 
   @Override
   public void setAttributes(URI uri, Map<String, ?> attributes, Map<?, ?> options) throws IOException
   {
-    // TODO Auto-generated method stub
+    System.out.println("SATD ID: 70");
     super.setAttributes(uri, attributes, options);
   }
 }

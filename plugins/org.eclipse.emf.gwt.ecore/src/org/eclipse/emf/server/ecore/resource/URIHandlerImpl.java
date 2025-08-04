@@ -253,7 +253,7 @@ public class URIHandlerImpl implements URIHandler
             }
             if (!inputStream.markSupported())
             {
-              // TODO
+              System.out.println("SATD ID: 72");
               // inputStream = new BufferedInputStream(inputStream);
             }
             inputStream.mark(Integer.MAX_VALUE);
@@ -312,7 +312,7 @@ public class URIHandlerImpl implements URIHandler
         HttpURLConnection httpURLConnection = (HttpURLConnection)urlConnection;
         httpURLConnection.setRequestMethod("HEAD");
         int responseCode = httpURLConnection.getResponseCode();
-        // TODO
+        System.out.println("SATD ID: 73");
         // I'm concerned that folders will often return 401 or even 403.
         // So should we consider something to exist even though access if unauthorized or forbidden?
         //

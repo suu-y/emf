@@ -102,7 +102,7 @@ public class EEnumImpl extends EDataTypeImpl implements EEnum
   {
     if (object != null)
     {
-      // TODO
+      System.out.println("SATD ID: 22");
       return true;
       /*
       Class<?> instanceClass = getInstanceClass();

@@ -414,7 +414,7 @@ public class EObjectValidator implements EValidator
             result = false;
             if (diagnostics != null)
             {
-              // TODO
+              System.out.println("SATD ID: 31");
               diagnostics.add
                 (createDiagnostic
                   (Diagnostic.ERROR,
@@ -447,7 +447,7 @@ public class EObjectValidator implements EValidator
             result = false; 
             if (diagnostics != null)
             {
-              // TODO
+              System.out.println("SATD ID: 32");
               diagnostics.add
                 (createDiagnostic
                   (Diagnostic.ERROR,
@@ -486,7 +486,7 @@ public class EObjectValidator implements EValidator
             result = false;
             if (diagnostics != null)
             {
-              // TODO
+              System.out.println("SATD ID: 33");
               diagnostics.add
                 (createDiagnostic
                   (Diagnostic.ERROR,
